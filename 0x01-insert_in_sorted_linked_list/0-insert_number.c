@@ -25,6 +25,7 @@ if (new_node == NULL)
 	return (NULL);
 }
 new_node->n = number;
+new_node->next = NULL;
 
 aux = *head;
 if (aux == NULL || aux->n > number)
