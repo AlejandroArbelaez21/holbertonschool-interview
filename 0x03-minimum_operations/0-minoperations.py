@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+method that calculates the fewest number of operations needed to result
+"""
+
+
 def minOperations(n):
     numH = 1
     cp = 1
