@@ -23,5 +23,5 @@ try:
 finally:
     print("File size: {}".format(size))
     for key in sorted(code.keys()):
-        if stats[key] > 0:
+        if code[key] > 0:
             print("{}: {}".format(key, code[key]))
