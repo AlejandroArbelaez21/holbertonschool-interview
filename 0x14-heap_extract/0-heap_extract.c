@@ -89,5 +89,5 @@ int heap_extract(heap_t **root)
 	else
 		node->parent->left = NULL;
 	free(node);
-	return (value);
+	return (value); 
 }
